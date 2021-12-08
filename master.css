@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=NotoSansKR+Condensed&display=swap');
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  height: 90px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1200px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;}
+
+header nav ul li a{
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Noto Sans KR Condensed', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+  transition: 1s;
+}
+header nav ul li a:hover{
+  color: #ffffff;
+  font-size: 1.4em;
+  transition: 1s;
+}
+
+.menu1{width:350px;}
+.menu2{width: 300px;}
+.menu3{width: 150px;}
+.menu4{width: 170px;}
+.menu5{width: 285px;}
+
+.main{
+  width: 100%;
+  height: 600px;
+  margin-top: -20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cont1{
+  background-image: url('img/03_bg.png');
+}
+.cont2{
+  background-image: url('img/04_bg.png');
+}
+.cont3{
+  background-image: url('img/05_bg.png');
+}
+.cont4{
+  background-image: url('img/06_bg.png');
+}
+
+.cont_total{
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  margin-top: 45px;
+  background-color: #656565;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+}
+
+
+.body1{
+  margin-left: -25px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wrap_01{
+  width: 100%;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap_02{
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.tit1{
+  font-size: 30px;
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Noto Sans KR Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tit2{
+  font-size: 30px;
+  color: black;
+  margin-top: 45px;
+  text-align: center;
+  font-family: 'Noto Sans KR Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallerylist{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.gallerylist ul{
+  font-size: 0;
+}
+
+.gallerylist ul li{
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3%;
+}
+
+.gallerylist ul li a{
+  display: block;
+  width: auto;
+  text-decoration: none;
+  margin: 5px;
+  }
+
+.gallerylist ul li a .screen{
+  position: relative;
+  overflow: hidden;
+}
+
+.gallerylist ul li a .screen .top{
+  position: absolute;
+  bottom: 200%;
+  left: 30px;
+  text-align: center;
+  z-index: 5;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  transition: all .40s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallerylist ul li a .screen img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallerylist ul li a h3{
+font-size: 17px;
+text-align: center;
+padding: 20px;
+color: #656565;
+font-family: 'NanumSquare', sans-serif;
+}
+
+.gallerylist ul li a .screen img:hover{
+  filter: opacity(70%);
+  transition: .3s;
+}
+
+.gallerylist ul li a:hover .top{
+  bottom: 50%;
+}
+
+.gallerylist ul li a:hover .bottom{
+  bottom: 52%;
+}
+
+.bodycopy{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_total{
+  margin-top: 100px;
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
